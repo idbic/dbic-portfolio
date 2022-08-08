@@ -6,7 +6,8 @@ import SlideShow from './Components/SlideShow/SlideShow';
 import Projects from './Pages/Projects/Projects'
 import About from './Components/About/About';
 import ContactForm from './Components/ContactForm/ContactForm';
-
+import { Image } from 'react-bootstrap';
+import PortPic from '../src/media/portfolio .jpeg'
 
 function App() {
   return (

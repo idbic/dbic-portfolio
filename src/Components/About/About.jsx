@@ -1,36 +1,32 @@
-import Col from 'react-bootstrap/Col';
-import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Tab from 'react-bootstrap/Tab';
-
-
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+import PortPic from '../../media/portfolio .jpeg'
+import { Image } from 'react-bootstrap';
 
 function About() {
   return (
-    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-      <Row>
-        <Col sm={3}>
-          <Nav variant="pills" className="flex-column">
-            <Nav.Item>
-              <Nav.Link eventKey="first">About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="second">More</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Col>
-        <Col sm={9}>
-          <Tab.Content>
-            <Tab.Pane eventKey="first">
-              Hello! My Name is Daniel B. This is my portfolio for Software Developement. 
-            </Tab.Pane>
-            <Tab.Pane eventKey="second">
-              Yellow yellow yellow
-            </Tab.Pane>
-          </Tab.Content>
-        </Col>
-      </Row>
-    </Tab.Container>
+    <>
+    <Image src={PortPic}/>
+    <Card style={{ width: '18rem' }}>
+      
+      <Card.Body>
+        <Card.Title>FullStack Developer</Card.Title>
+        <Card.Text>
+          My name is Daniel Bicheler and I am a full stack web developer. I recieved my training
+          through General Assembly's Software Engineering Immersive Bootcamp (400hrs) and FreeCodeCamp's front end web developement course(300hrs).
+        </Card.Text>
+      </Card.Body>
+      {/* <ListGroup className="list-group-flush">
+        <ListGroup.Item>Cras justo odio</ListGroup.Item>
+        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+      </ListGroup> */}
+      <Card.Body>
+        <Card.Link href="/projects">Projects</Card.Link>
+        <Card.Link href="/resume">Resume</Card.Link>
+      </Card.Body>
+    </Card>
+    </>
   );
 }
 
