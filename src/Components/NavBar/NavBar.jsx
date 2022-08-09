@@ -7,18 +7,18 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">Daniel Bicheler</Navbar.Brand>
+        <Navbar.Brand href="/dbic-portfolio">Daniel Bicheler</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             
-            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/dbic-portfolio/projects">Projects</Nav.Link>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
              
               <NavDropdown.Item href="#action/3.2">
                Resume
               </NavDropdown.Item>
-              <NavDropdown.Item href="/contact">Email Me</NavDropdown.Item>
+              <NavDropdown.Item href="/dbic-portfolio/contact">Email Me</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Download Resume

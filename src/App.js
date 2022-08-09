@@ -16,9 +16,9 @@ function App() {
     <NavBar/>
     
     <Routes>
-      <Route path='/' element={<About/>}/>
-      <Route path='/projects' element={<Projects/>}/>
-      <Route path='/contact' element={<ContactForm/>}/>
+      <Route path='/dbic-portfolio/' element={<About/>}/>
+      <Route path='/dbic-portfolio/projects' element={<Projects/>}/>
+      <Route path='/dbic-portfolio/contact' element={<ContactForm/>}/>
     </Routes>
     </>
   );
