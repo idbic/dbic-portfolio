@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dbic-portfolio/static/css/main.fa95dbb9.css",
+    "main.js": "/dbic-portfolio/static/js/main.17036400.js",
+    "static/js/787.1ed0c42c.chunk.js": "/dbic-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/tictactoe.png": "/dbic-portfolio/static/media/tictactoe.7b37bffb969dd666dd32.png",
+    "static/media/cornrevolution.png": "/dbic-portfolio/static/media/cornrevolution.0883214a59e90f16ba80.png",
+    "static/media/portfolio .jpeg": "/dbic-portfolio/static/media/portfolio .774d46a4dc69b0536d9c.jpeg",
+    "index.html": "/dbic-portfolio/index.html",
+    "main.fa95dbb9.css.map": "/dbic-portfolio/static/css/main.fa95dbb9.css.map",
+    "main.17036400.js.map": "/dbic-portfolio/static/js/main.17036400.js.map",
+    "787.1ed0c42c.chunk.js.map": "/dbic-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa95dbb9.css",
+    "static/js/main.17036400.js"
+  ]
+}
